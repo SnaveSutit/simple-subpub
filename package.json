@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/SnaveSutit/simple-subpub"
+		"url": "git+https://github.com/SnaveSutit/simple-subpub.git"
 	},
 	"files": [
 		"dist"
