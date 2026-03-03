@@ -13,7 +13,7 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: oven-sh/setup-bun@v2
       - uses: actions/setup-node@v4
         with:
@@ -56,4 +56,4 @@ jobs:
 
       - name: Publish package
         if: ${{ github.event_name == 'release' }}
-        run: npm publish --provenance --access public
+        run: npm publish
